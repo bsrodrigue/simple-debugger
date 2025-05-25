@@ -1,0 +1,116 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libedit-x64-linux-2024-08-08-be25026a-bd9f-4084-be64-a1566eac5a5d",
+  "name": "libedit:x64-linux@2024-08-08 a02804cb7c12301f6fe201acd8809b7f723380463a77a5da321978746ae990c3",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
+    ],
+    "created": "2025-05-25T17:22:24Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libedit",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2024-08-08",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/libedit",
+      "homepage": "https://thrysoee.dk/editline/",
+      "licenseConcluded": "BSD-4-Clause-UC",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "A command line editor library that provides generic line editing, history, and tokenization functions, similar to those found in GNU Readline.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "libedit:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "a02804cb7c12301f6fe201acd8809b7f723380463a77a5da321978746ae990c3",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSD-4-Clause-UC",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "libedit-${REF_SHORT_VERSION_DATE}-3.1.tar.gz",
+      "packageFileName": "libedit-${REF_SHORT_VERSION_DATE}-3.1.tar.gz",
+      "downloadLocation": "https://thrysoee.dk/editline/libedit-${REF_SHORT_VERSION_DATE}-3.1.tar.gz",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b11d64947f9484bb2320b0fbcfdc94466993af1dfa0d853853b73c222e95d6c1e78d88d0c305929b95bf7a85009129475c9fef0ac8595b43d75543d85052a4ff"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "14b96f84624fde47f2340e222f86c35126b8d75a4ac841c77e37f88652175722"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f333ca014cff3a1c4808365d685a6768a2e9b3b93336bcf5d93332a83d290016"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rodo/workspace/sideprojects/based-debugger/sdb/build/cmake_install.cmake",
+		"/home/rodo/workspace/sideprojects/based-debugger/sdb/build/src/cmake_install.cmake",
+		"/home/rodo/workspace/sideprojects/based-debugger/sdb/build/tools/cmake_install.cmake",
+		"/home/rodo/workspace/sideprojects/based-debugger/sdb/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
