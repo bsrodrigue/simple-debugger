@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS  ON)
 project("sdb" LANGUAGES CXX)
 
 find_package(PkgConfig REQUIRED)

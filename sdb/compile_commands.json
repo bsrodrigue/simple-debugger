@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/src",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -I/home/rodo/workspace/sideprojects/based-debugger/sdb/src/include -g -fdiagnostics-color=always -o CMakeFiles/libsdb.dir/process.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/src/process.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/src/process.cpp",
+  "output": "src/CMakeFiles/libsdb.dir/process.cpp.o"
+},
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/tools",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -isystem /home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/vcpkg_installed/x64-linux/debug/lib/pkgconfig/../../../include -isystem /home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/vcpkg_installed/x64-linux/debug/lib/pkgconfig/../../../include/editline -g -fdiagnostics-color=always -o CMakeFiles/sdb.dir/sdb.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/tools/sdb.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/tools/sdb.cpp",
+  "output": "tools/CMakeFiles/sdb.dir/sdb.cpp.o"
+},
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/test",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -isystem /home/rodo/workspace/sideprojects/based-debugger/sdb/cmake-build-debug/vcpkg_installed/x64-linux/include -g -fdiagnostics-color=always -o CMakeFiles/tests.dir/tests.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/test/tests.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/test/tests.cpp",
+  "output": "test/CMakeFiles/tests.dir/tests.cpp.o"
+}
+]

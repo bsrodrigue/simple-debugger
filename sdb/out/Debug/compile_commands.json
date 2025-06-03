@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/out/Debug/src",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -I/home/rodo/workspace/sideprojects/based-debugger/sdb/src/include -g -o CMakeFiles/libsdb.dir/process.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/src/process.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/src/process.cpp",
+  "output": "src/CMakeFiles/libsdb.dir/process.cpp.o"
+},
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/out/Debug/src",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -I/home/rodo/workspace/sideprojects/based-debugger/sdb/src/include -g -o CMakeFiles/libsdb.dir/pipe.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/src/pipe.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/src/pipe.cpp",
+  "output": "src/CMakeFiles/libsdb.dir/pipe.cpp.o"
+},
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/out/Debug/tools",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -isystem /usr/include/editline -g -o CMakeFiles/sdb.dir/sdb.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/tools/sdb.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/tools/sdb.cpp",
+  "output": "tools/CMakeFiles/sdb.dir/sdb.cpp.o"
+},
+{
+  "directory": "/home/rodo/workspace/sideprojects/based-debugger/sdb/out/Debug/test",
+  "command": "/usr/bin/c++  -I/home/rodo/workspace/sideprojects/based-debugger/sdb/include -g -o CMakeFiles/tests.dir/tests.cpp.o -c /home/rodo/workspace/sideprojects/based-debugger/sdb/test/tests.cpp",
+  "file": "/home/rodo/workspace/sideprojects/based-debugger/sdb/test/tests.cpp",
+  "output": "test/CMakeFiles/tests.dir/tests.cpp.o"
+}
+]

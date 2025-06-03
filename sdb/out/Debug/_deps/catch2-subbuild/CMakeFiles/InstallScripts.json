@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rodo/workspace/sideprojects/based-debugger/sdb/out/Debug/_deps/catch2-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
